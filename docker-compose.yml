@@ -1,0 +1,14 @@
+version: "3"
+services:
+  chatgpt:
+    container_name: chatgpt_api
+    image: "chatgpt"
+    ports:
+      - "8080:8080"
+    build:
+      context: "./"
+      dockerfile: "Dockerfile"
+
+
+
+  
