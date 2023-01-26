@@ -19,7 +19,7 @@
   
   ![Response](https://user-images.githubusercontent.com/86418817/214863952-edd1c439-d5ff-4593-9f62-9ee79da472e9.png)
 
-## Project architecture
+## Project structure
 
 ![image](https://user-images.githubusercontent.com/86418817/214864958-c568c831-6015-43a6-befe-fd6954c79b4d.png)
 
