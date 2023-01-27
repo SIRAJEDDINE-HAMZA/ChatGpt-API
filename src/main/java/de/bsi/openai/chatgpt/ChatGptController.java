@@ -41,7 +41,7 @@ public class ChatGptController {
 	public String chat(Model model, @ModelAttribute FormInputDTO dto) {
 		try {
 			ChatGPTResponse chatGPTResponse=new ChatGPTResponse();
-			String response=chatWithGpt3(dto.prompt()).replaceAll("\n","");
+			String response=chatWithGpt3(dto.prompt());
 			model.addAttribute("request", dto.prompt());
 			model.addAttribute("response", response);
 			chatGPTResponse.setAnswer(response);
